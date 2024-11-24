@@ -101,3 +101,14 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.carousel-custom {
+    max-width: 800px; /* Largura máxima */
+    max-height: 400px; /* Altura máxima */
+    margin: auto; /* Centraliza o carrossel */
+}
+
+.carousel-custom .carousel-item img {
+    object-fit: cover; /* Ajusta como a imagem se adapta */
+    max-width: 100%;
+    max-height: 100%;
+}
